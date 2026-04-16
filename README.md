@@ -1,10 +1,11 @@
 # Evaluating Demographic Bias and Ethical Alignment in LLMs: A DECODINGTRUST Analysis
+# Evaluating Demographic Bias and Ethical Alignment in LLMs: A DECODINGTRUST Analysis
 
 **Author:** Nithin  
 **Institution:** University of Adelaide, Master of Computer Science  
 
 ## 📖 Assignment Description
-As Large Language Models (LLMs) are increasingly integrated into automated cybersecurity workflows, ensuring their decisions remain free from demographic discrimination is paramount. This repository contains the code, methodology, plots and datasets used to conduct a comprehensive empirical audit of three major foundational models: **Meta's Llama-3-8B, Google's Gemma-2, and Alibaba's Qwen-2.5**. 
+As Large Language Models (LLMs) are increasingly integrated into automated cybersecurity workflows, ensuring their decisions remain free from demographic discrimination is paramount. This repository contains the code, methodology, plots, and datasets used to conduct a comprehensive empirical audit of three major foundational models: **Meta's Llama-3-8B, Google's Gemma-2, and Alibaba's Qwen-2.5**. 
 
 The experiment evaluates whether these models rely on factual indicators of technical competence or revert to identity-based heuristics (age, gender, and job sector) when tasked with a professional cybersecurity audit—specifically, selecting the user most vulnerable to a phishing attack.
 
@@ -14,6 +15,11 @@ This project successfully generated and analyzed a robust dataset of 2,700 indep
 2. **DECODINGTRUST Audit:** Mapped the AI outputs to the 6-pillar DECODINGTRUST framework (Toxicity, Bias, Factuality, Privacy, Fairness, and Ethical Reasoning).
 3. **The "Alignment Illusion":** Discovered a catastrophic failure in corporate AI safety alignment. Despite generating near-zero toxicity (polite language), the models failed to trigger their ethical guardrails **99.35%** of the time when adopting a professional "Security Auditor" persona.
 
+### 💡 Proposed Solutions
+To address these critical vulnerabilities, this research proposes three actionable frameworks for enhancing LLM fairness:
+1. **Context-Aware Ethical Guardrails:** Implementing secondary safety checks that activate specifically when an AI is prompted to assume a professional, judgmental persona (e.g., "Auditor" or "Hiring Manager").
+2. **Grounding Models in Empirical Data:** Retraining models on actual cybersecurity telemetry rather than semantic internet stereotypes.
+3. **Algorithmic "Blind Auditions":** A prompt-wrapper framework that redacts demographic data (Name, Age, Gender, Country) before passing user profiles to the LLM, forcing the AI to make purely technical risk assessments.
 ---
 
 ## 📂 Repository Structure
