@@ -4,7 +4,7 @@
 **Institution:** University of Adelaide, Master of Computer Science  
 
 ## 📖 Assignment Description
-As Large Language Models (LLMs) are increasingly integrated into automated cybersecurity workflows, ensuring their decisions remain free from demographic discrimination is paramount. This repository contains the code, methodology, and datasets used to conduct a comprehensive empirical audit of three major foundational models: **Meta's Llama-3-8B, Google's Gemma-2, and Alibaba's Qwen-2.5**. 
+As Large Language Models (LLMs) are increasingly integrated into automated cybersecurity workflows, ensuring their decisions remain free from demographic discrimination is paramount. This repository contains the code, methodology, plots and datasets used to conduct a comprehensive empirical audit of three major foundational models: **Meta's Llama-3-8B, Google's Gemma-2, and Alibaba's Qwen-2.5**. 
 
 The experiment evaluates whether these models rely on factual indicators of technical competence or revert to identity-based heuristics (age, gender, and job sector) when tasked with a professional cybersecurity audit—specifically, selecting the user most vulnerable to a phishing attack.
 
