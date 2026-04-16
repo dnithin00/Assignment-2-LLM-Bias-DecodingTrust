@@ -1,5 +1,4 @@
 # Evaluating Demographic Bias and Ethical Alignment in LLMs: A DECODINGTRUST Analysis
-# Evaluating Demographic Bias and Ethical Alignment in LLMs: A DECODINGTRUST Analysis
 
 **Author:** Nithin  
 **Institution:** University of Adelaide, Master of Computer Science  
